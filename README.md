@@ -1,5 +1,5 @@
 ### Descrição da aplicação
-API Dockerizada feita em GO.
+API Dockerizada feita em FastAPI utilizando websocket.
 
 ### Dependências
 
