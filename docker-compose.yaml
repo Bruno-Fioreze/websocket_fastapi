@@ -1,0 +1,11 @@
+version: "3.7"  # optional since v1.27.0
+services:
+  web:
+    container_name: fastapi_aplication
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
