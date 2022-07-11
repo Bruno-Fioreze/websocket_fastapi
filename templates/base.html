@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.6/brython.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.6/brython_stdlib.min.js">
+    </script>
+
+    {% block script %}
+    {% endblock %}
+  </head>
+
+
+  <body onload="brython()">
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
